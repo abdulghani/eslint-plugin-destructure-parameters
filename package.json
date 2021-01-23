@@ -1,0 +1,25 @@
+{
+  "name": "@abdulghani/eslint-plugin-destructure-parameters",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "rm -rf ./build && tsc -p ./",
+    "test": "jest --runInBand --config ./jest.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@jest/types": "^26.6.2",
+    "@types/eslint": "^7.2.6",
+    "@types/estree": "^0.0.46",
+    "@types/jest": "^26.0.20",
+    "@types/json-schema": "^7.0.7",
+    "eslint": "^7.18.0",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.4.4",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
